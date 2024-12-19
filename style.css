@@ -1,0 +1,65 @@
+/* Basic Reset (optional, but recommended for consistency across browsers) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  /* General Styles */
+  body {
+    font-family: sans-serif; /* Or choose a specific font you like */
+    line-height: 1.6;
+    color: #333; 
+    background-color: #f4f4f4; 
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0; 
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* For horizontal navigation */
+    justify-content: center; /* Center the navigation items */
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main Content Styles */
+  main {
+    max-width: 960px; /* Adjust as needed */
+    margin: 2rem auto; 
+    padding: 1rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed; /* Stick to the bottom of the page */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Optional: Add more specific styles for sections, images, etc. */

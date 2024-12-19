@@ -1,0 +1,19 @@
+# VS Code specific files
+.vscode/
+.DS_Store
+
+# Build output and temporary files
+dist/
+build/
+
+# Browsers caches
+node_modules/
+bower_components/
+
+# IDE-specific settings
+.idea/
+.project
+
+# Temporary files
+*temp*
+*~

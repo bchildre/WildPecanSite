@@ -16,7 +16,7 @@
   /* Header Styles */
   header {
     background-color: #333;
-    color: #fff;
+    color: #2947cc;
     text-align: center;
     padding: 1rem 0; 
   }
@@ -37,6 +37,7 @@
   }
   
   nav li {
+    font-size: 1rem;
     margin: 0 1rem;
     color: #773232;
   }
